@@ -1,0 +1,6 @@
+namespace KursachOSISP.Areas.HelpPage.ModelDescriptions
+{
+    public class DictionaryModelDescription : KeyValuePairModelDescription
+    {
+    }
+}
