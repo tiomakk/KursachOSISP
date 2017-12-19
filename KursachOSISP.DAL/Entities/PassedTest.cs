@@ -10,7 +10,7 @@ namespace KursachOSISP.DAL.Entities
     class PassedTest
     {
         public int Id { get; set; }
-        public int StudentId { get; set; }
+        public string StudentId { get; set; }
         public Student Student { get; set; }
         public DateTime Date { get; set; }
         public ICollection<AnsweredQuestion> Answers { get; set; }

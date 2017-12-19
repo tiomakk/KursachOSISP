@@ -12,7 +12,7 @@ namespace KursachOSISP.DAL.Entities
         public int Id { get; set; }
         public string TestName { get; set; }
         public ICollection<Question> Questions { get; set; }
-        public int TeacherId { get; set; }
+        public string TeacherId { get; set; }
         public Teacher Author { get; set; }
 
         public Test()

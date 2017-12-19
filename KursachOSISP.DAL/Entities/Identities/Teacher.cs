@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace KursachOSISP.DAL.Entities.Identities
 {
     [Table("Teachers")]
-    class Teacher
+    class Teacher: UserProfile
     {
         public ICollection<ClassRoom> ClassRooms { get; set; }
 
