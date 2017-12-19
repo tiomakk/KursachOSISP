@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KursachOSISP", "KursachOSISP\KursachOSISP.csproj", "{B986AD65-B2F8-4F28-954A-CA79AC07D221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KursachOSISP.DAL", "KursachOSISP.DAL\KursachOSISP.DAL.csproj", "{ADBF79F8-D8FB-4D55-8567-C81B5208C4D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{B986AD65-B2F8-4F28-954A-CA79AC07D221}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B986AD65-B2F8-4F28-954A-CA79AC07D221}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B986AD65-B2F8-4F28-954A-CA79AC07D221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADBF79F8-D8FB-4D55-8567-C81B5208C4D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBF79F8-D8FB-4D55-8567-C81B5208C4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBF79F8-D8FB-4D55-8567-C81B5208C4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBF79F8-D8FB-4D55-8567-C81B5208C4D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B79F1DB-C7A3-4A62-81B6-8BD30BC71B31}
 	EndGlobalSection
 EndGlobal
